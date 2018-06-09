@@ -4,15 +4,15 @@ author: "Paula Dybowska"
 date: "7 czerwca 2018"
 output:
   html_document:
-     theme: default
-  highlight: default 
-  df_print: paged
+    theme: default
+    highlight: default 
+    df_print: paged
   
   
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # **Netflix**
@@ -50,7 +50,7 @@ Dodam nawet [link](https://www.netflix.com) do Netflixa
 
 ## *Czary mary*
 
-###Cytacik
+### Cytacik
 
 ```
 > „Wiem, że nic nie wiem”
