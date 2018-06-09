@@ -1,5 +1,3 @@
 # tipn_zad_dybowska
 Ładne README:
-Zadanka zalegały sobie u mnie na komputerku tylko dopiero dziś się obudziłam żeby je wrzucić.
-Brakuje jeszcze zadanka 6 a z racji, że nie było mnie na zajęciach potrzebuje jeszcze chwilki żeby wszystko ładnie ogarnąć. 
-Do 10.06 na bank wszystko będzie pięknie zrobione :)
+Zadanka zrobione, siódme poty wyciśnięte. Mam nadzieje, że to 6 zadanko jakoś wyszło, bo jednak nieobecność na zajęciach dużo mnie kosztowała eh...
