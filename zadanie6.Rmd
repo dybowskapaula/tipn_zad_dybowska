@@ -1,0 +1,83 @@
+---
+title: "zadanie6"
+author: "Paula Dybowska"
+date: "7 czerwca 2018"
+output:
+  html_document:
+     theme: default
+  highlight: default 
+  df_print: paged
+  
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Netflix**
+  
+Internetowa wypożyczalnia, oferująca za zryczałtowaną opłatą wypożyczanie filmów i seriali poprzez media strumieniowe. 
+Obecnie dostępna jest na całym świecie, z wyjątkiem Chin. Można wykupić jedną z 3 opcji abonamentu:
+  
+  1. Podstawowy; 34zł/msc; 1 ekran
+  2. Standart; 43zł/msc; 2 ekrany; HD
+  3. Premium; 52zł/msc; 4 ekrany; ultra HD
+
+Dodam nawet [link](https://www.netflix.com) do Netflixa 
+
+## *Seriale są spoko*
+  
+  Ogólnie Netflix to bardzo fajny serwis, posiadający w swojej ofercie dużo ciekawych filmów, ale przede wszystkim super seriali. Oto kilka z nich:
+  
+  * Stranger Things
+  * How to get away with a murder
+  * Bates Motel
+  * Orphan Black
+  * The end of the f***ing world
+  * Dark
+  
+### A tak ocenia te super seriale IMDb i Filmweb
+  
+| tytuł | IMDb 1-10 | Filmweb 1-10 |
+| --- | --- | --- |
+| Stranger Things | 8,9 | 8,5 |
+| How to get away with a murder | 8,2 | 8,0 |
+| Bates Motel | 8,2 | 7,7 |
+| Orphan Black | 8,3 | 8,0 |
+| The end of the f***ing world | 8,2 | 7,6 |
+| Dark | 8,7| 8,3 |
+
+## *Czary mary*
+
+###Cytacik
+
+```
+> „Wiem, że nic nie wiem”
+
+``` 
+
+### Tabelka
+
+```{r include=FALSE}
+
+library(tidyverse)
+library(ggplot2)
+
+```
+
+```{r echo=FALSE}
+
+mpg
+
+```
+
+
+### Wykresik
+
+```{r echo=FALSE}
+ggplot(data = mpg) + 
+  geom_bar(mapping = aes(x = class, fill = class)) +
+  labs(title = "Ilość samochodów w poszczególnych klasach", x = "Klasa", y = "Ilość")
+  
+```
