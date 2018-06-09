@@ -4,8 +4,8 @@ author: "Paula Dybowska"
 date: "7 czerwca 2018"
 output:
   html_document:
-    theme: default
-    highlight: default 
+    theme: paper
+    highlight: monochrome
     df_print: paged
   
   
